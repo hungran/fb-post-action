@@ -1,0 +1,22 @@
+name: 'Facebook Post'
+description: 'Write a Facebook Post by Action'
+author: 'Hungran'
+inputs:
+  FACEBOOK_ACCESS_TOKEN:
+    description: 'Facebook Access Token'
+    required: true
+  FACEBOOK_MESSAGE:
+    description: 'Facebook Message'
+    required: true
+    default: 'Hello World'
+  FACEBOOK_PAGE_ID:
+    description: 'Facebook Page ID'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'cloud-snow'
+  color: 'blue'
