@@ -1,4 +1,4 @@
-name: telegram message
+name: Self Invoke for testing
 on: [push]
 jobs:
   build:
