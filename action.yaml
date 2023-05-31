@@ -5,7 +5,7 @@ inputs:
   FACEBOOK_ACCESS_TOKEN:
     description: 'Facebook Access Token'
     required: true
-  FACEBOOK_MESSAGE:
+  FACEBOOK_POST_MESSAGE:
     description: 'Facebook Message'
     required: true
     default: 'Hello World'

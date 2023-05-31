@@ -18,7 +18,7 @@ func main() {
 	url := fmt.Sprintf("https://graph.facebook.com/v13.0/%s/feed", pageID)
 
 	post := Post{
-		Message: "Hello, Facebook! This is my first post using Go!",
+		Message: os.Getenv("FACEBOOK_POST_MESSAGE")),
 	}
 
 	jsonData, err := json.Marshal(post)
