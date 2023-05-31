@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - main
 jobs:
   push_to_registries:
     name: Semantic Release & Push Docker image to multiple registries
