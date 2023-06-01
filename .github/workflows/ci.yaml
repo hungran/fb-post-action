@@ -12,4 +12,4 @@ jobs:
           FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
           FACEBOOK_POST_MESSAGE: |
-            hello wolrd from ci
+            hello world from ci
